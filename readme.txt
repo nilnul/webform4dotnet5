@@ -9,3 +9,5 @@ So the philosophy for porting webForm is:
 2) it's not good in WebApi.
 3) don't let #2 to deny the good in #1.
 4) we port #1, not #2.
+
+For example, when we write a long article (such as a treatise/report/solution), we mainly need UI and rarely need WebApi. It's perfect use case for webForm, and no need to introduce the complexity of, say, MVC/Razor, etc.
